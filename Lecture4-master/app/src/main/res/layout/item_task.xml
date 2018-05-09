@@ -36,6 +36,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
-        android:text="done" />
+        android:text="done"
+        android:textOff="moram"
+        android:textOn="obavljeno"
+        android:visibility="visible"
+        android:layout_alignParentRight="true"
+        android:onClick="changeTaskstatus"
+        />
 
 </RelativeLayout>

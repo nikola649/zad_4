@@ -4,8 +4,12 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ListView;
+import android.widget.ToggleButton;
+
+import java.text.BreakIterator;
 
 import ada.osc.taskie.R;
 import ada.osc.taskie.TaskRepository;
@@ -63,4 +67,15 @@ public class TasksActivity extends AppCompatActivity {
             }
         }
     }
+//
+//public void changeTaskstatus(View view) {
+//
+//boolean checked = ((ToggleButton)view).isChecked();
+//if (checked)
+//{
+//textView.setText("obavljeno");
+//
+//}
+//}
+//
 }
